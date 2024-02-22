@@ -2,9 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: blue;
 }
 
 header {
-    min-height: 500px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
